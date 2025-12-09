@@ -8,7 +8,7 @@ const getCountryByCords = async () => {
   const options = {
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': 'ad9c5d69d5msh2a55a9c6bf459aep1cdf64jsn4262bd5f50e7',
+      'X-RapidAPI-Key': process.env.NEXT_PUBLIC_RAPIDAPI_KEY || '',
       'X-RapidAPI-Host': 'forward-reverse-geocoding.p.rapidapi.com',
     },
   };

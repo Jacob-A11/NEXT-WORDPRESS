@@ -37,8 +37,8 @@ export async function auth() {
     authData = await apolloClient.mutate({
       mutation: AUTH,
       variables: {
-        username: 'finklo',
-        password: 'finklo',
+        username: process.env.WORDPRESS_LOGIN || '',
+        password: process.env.WORDPRESS_PASSWORD || '',
       },
     });
   } catch (e) {
