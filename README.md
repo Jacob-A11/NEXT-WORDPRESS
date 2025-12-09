@@ -9,6 +9,11 @@ Scaling WordPress with the power of [Next.js](https://nextjs.org/) and the stati
 - [💝 Sponsors](#-sponsors)
 - [✨ Contributors](#-contributors)
 
+### Requirements
+* [WordPress](https://wordpress.org/)
+* [WPGraphQL](https://www.wpgraphql.com/)
+* Environment variables (see below)
+
 ```bash
 yarn create next-app -e https://github.com/Jacob-A11/NEXT-WORDPRESS
 # or
